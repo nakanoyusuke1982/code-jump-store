@@ -1,0 +1,50 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 0.875rem;
+  color: #2a2a2a;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+
+#header{
+    height: 100vh;
+    background-image: url(../img/Hero.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    position: relative;
+
+}
+
+#header .site-title{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* 本文 */
+#newspaper{
+  text-align: center;
+  margin-bottom:80px;
+}
+
+#newspaper .flex-item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
