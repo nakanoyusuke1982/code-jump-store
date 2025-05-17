@@ -173,3 +173,50 @@ li {
   text-align: center;
   padding: 30px 0;
 }
+
+
+@media screen and (max-width: 896px) {
+  #newspaper .flex-item {
+    flex-direction: column;
+  }
+  
+  #newspaper .flex-item .item {
+    width: 100%;
+  }
+  
+  #newspaper .flex-item .item:first-child {
+    margin-bottom: 30px
+  }
+
+  #fashion {
+    padding-top: 35px;
+    margin-bottom: 50px;
+  }
+
+   .catalog-antique {
+    padding: 30px 0;
+  }
+  .catalog-antique .flex-item {
+    flex-direction: column;
+  }
+  .catalog-antique .item {
+    width: 100%;
+  }
+  .catalog-antique .item:first-child {
+    margin-bottom: 60px;
+  }
+
+  #footer .flex-item {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #footer .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #footer .item:first-child {
+    text-align: center;
+    padding: 0;
+  }
+}
