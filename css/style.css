@@ -100,4 +100,18 @@ li {
 
 .catalog-antique .item {
   width: 48%;
+  text-align: center;
+}
+
+.catalog-antique .item img{
+  width: 100%;
+}
+
+.catalog-antique .item p {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.catalog-antique .item p:last child {
+  margin-bottom: 0;
 }
