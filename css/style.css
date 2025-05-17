@@ -40,7 +40,7 @@ li {
 /* 本文 */
 #newspaper{
   text-align: center;
-  margin-bottom:80px;
+  margin-bottom: 80px;
 }
 
 #newspaper .flex-item{
@@ -65,4 +65,9 @@ li {
   top: 40%;
   left: 0;
   right: 0;
+}
+
+#magazine .flex-item .item .title {
+  font-size: 1.25rem;
+  margin-bottom: 2px;
 }
