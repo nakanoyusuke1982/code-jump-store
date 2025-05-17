@@ -82,3 +82,22 @@ li {
   padding-top: 60px;
   margin-bottom: 80px;
 }
+
+.catalog-antique{
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.catalog-antique .sct-title{
+  margin-bottom: 40px;
+}
+
+.catalog-antique .flex-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog-antique .item {
+  width: 48%;
+}
