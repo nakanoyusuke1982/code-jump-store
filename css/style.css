@@ -71,3 +71,14 @@ li {
   font-size: 1.25rem;
   margin-bottom: 2px;
 }
+
+#fashion{
+  height: 520px;
+  background-image: url(../img/Fashion\ &\ Style.jpg);
+  background-size: cover;
+  background-position: cover top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
