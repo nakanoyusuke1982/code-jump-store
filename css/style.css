@@ -85,7 +85,7 @@ li {
   right: 0;
 }
 
-#magazine .flex-item .item .title {
+#newspaper .flex-item .item .title {
   font-size: 1.25rem;
   margin-bottom: 2px;
 }
@@ -94,7 +94,7 @@ li {
   height: 520px;
   background-image: url(../img/Fashion\ &\ Style.jpg);
   background-size: cover;
-  background-position: cover top;
+  background-position: center top;
   background-repeat: no-repeat;
   text-align: center;
   padding-top: 60px;
